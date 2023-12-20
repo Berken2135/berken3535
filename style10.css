@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  position: sticky;
+  padding: -100px;
+}
+img {
+  border: 20px;
+  width: 100px;
+  height: 100px;
+}
+.etiketler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 400px;
+  gap: 30px;
+  list-style-type: none;
+}
+body {
+  font-family: montserrat, sans-serif;
+  background: antiquewhite;
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+button {
+  color: #fff;
+  background-color: rgb(81, 81, 206);
+  height: 30px;
+  width: 90px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.etiketler {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-right: 30px;
+}
+.resim img {
+  width: 100px;
+  height: 100px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 750px) {
+  .navbar * {
+    font-size: 12px;
+  }
+}
